@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "skipDefaultLibCheck": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "noEmit": false
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules", "dist", "backup"
+  ]
+}
